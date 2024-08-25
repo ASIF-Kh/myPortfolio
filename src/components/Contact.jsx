@@ -22,14 +22,14 @@ const ContactSection = () => {
           transition={{duration: 1}}
           className="flex justify-center space-x-6">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:asifiqbalk99@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="Email"
             >
               <FaEnvelope size={30} />
             </a>
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/asif-iqbal-khan-20094618b/"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="LinkedIn"
               target="_blank"
@@ -38,7 +38,7 @@ const ContactSection = () => {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/ASIF-Kh"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="GitHub"
               target="_blank"
