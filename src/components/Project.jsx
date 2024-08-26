@@ -17,7 +17,7 @@ const ProjectSection = () => {
             whileInView={{x: 0, opacity: 1}}
             initial={{x: 200, opacity: 0}}
             transition={{duration: 1}}
-            key={index} className="border-gray-50 border-2 p-6 rounded-lg shadow-lg">
+            key={index} className="shadow-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
               <p className="text-base text-gray-300 mb-4">{project.description}</p>
               <div className="mb-4">

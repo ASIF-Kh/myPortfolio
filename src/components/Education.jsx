@@ -18,7 +18,7 @@ const EducationSection = () => {
             initial={{y: -100, opacity: 0}}
             transition={{duration: 1}}
               key={index}
-              className="border-2 border-white p-6 rounded-lg shadow-lg"
+              className=" shadow-white p-6 rounded-lg shadow-sm"
             >
               <div className="flex justify-between items-center mb-2">
                 <h3 className="text-l lg:text-2xl font-semibold">{education.degree}</h3>

@@ -31,7 +31,7 @@ const Skills = () => {
             initial={{ x: -100, opacity: 0 }}
             transition={{ duration: 1 }}
             key={index}
-            className="p-3 lg:p-6 rounded-lg shadow-md flex flex-col items-center w-32 lg:w-40 border-2"
+            className="p-3 lg:p-6 rounded-lg shadow-white shadow-sm flex flex-col items-center w-32 lg:w-40 "
           >
             <div className="text-2xl lg:text-4xl text-blue-500 mb-4">{skill.icon}</div>
             <h3 className="text-lg lg:text-xl font-semibold">{skill.name}</h3>

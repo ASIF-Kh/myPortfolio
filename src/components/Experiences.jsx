@@ -19,7 +19,7 @@ const ExperienceSection = () => {
             transition={{duration: 1}}
             key={index} className="mb-10 ml-6 relative">
               
-              <div className="p-6 rounded-lg shadow-2xl border-white border-2">
+              <div className="p-6 rounded-lg shadow-sm shadow-white">
                 <div className="flex justify-between items-center mb-3">
                   <h3 className="text-xl font-semibold text-white">{experience.jobTitle}</h3>
                   <span className="text-sm text-gray-400">{experience.duration}</span>
