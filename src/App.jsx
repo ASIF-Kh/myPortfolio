@@ -21,7 +21,7 @@ function App() {
       
       
       <NavBar/>
-      <div className="container mt-10 mx-auto px-8">
+      <div className="container mt-20 mx-auto px-8">
       <Hero />
       <About/>
       <Skills />
