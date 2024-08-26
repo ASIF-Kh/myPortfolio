@@ -43,19 +43,19 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <a href="#home" className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
+        <a href="#home" onClick={toggleMenu} className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
           Home
         </a>
-        <a href="#about" className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
+        <a href="#about" onClick={toggleMenu} className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
           About
         </a>
-        <a href="#projects" className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
+        <a href="#projects" onClick={toggleMenu} className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
           Projects
         </a>
-        <a href="#experience" className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
+        <a href="#experience" onClick={toggleMenu} className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
           Experience
         </a>
-        <a href="#contact" className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
+        <a href="#contact" onClick={toggleMenu} className="block px-4 py-2 text-gray-400 hover:text-white transition-colors">
           Contact
         </a>
       </div>
