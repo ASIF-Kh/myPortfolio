@@ -13,7 +13,6 @@ function About() {
         </motion.h2>
 
         <div className='flex flex-wrap justify-center'>
-       
                 <motion.p 
                 whileInView={{x: 0, opacity: 1}}
                 initial={{x: -100, opacity: 0}}

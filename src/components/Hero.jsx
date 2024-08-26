@@ -7,19 +7,20 @@ const container=(delay)=>{
     return {
         hidden: {x:-100, opacity: 0 },
         visible: {
-          x:0,
-          opacity: 1,
-          transition: {
-           duration: 0.5,
-              delay: delay
-          }
+
+            x:0,
+            opacity: 1,
+            transition: {
+            duration: 0.5,
+            delay: delay
         }
-      }
+        }
+    }
 
 }
 
 function Hero() {
-  return (
+    return (
     <div id='home' className='border-b border-neutral-900 lg:mb-35'>
         
         <div className='flex flex-wrap'>
