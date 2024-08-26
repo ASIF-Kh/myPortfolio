@@ -1,5 +1,6 @@
 import About from "./components/About"
 import ContactSection from "./components/Contact"
+import EducationSection from "./components/Education"
 import ExperienceSection from "./components/Experiences"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <About/>
       <Skills />
+      <EducationSection />
       <ExperienceSection />
       <ProjectSection />
       <ContactSection />

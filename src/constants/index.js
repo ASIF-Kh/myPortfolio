@@ -5,7 +5,26 @@ export const HERO_CONTENT = `Web Developer | Python Developer | Machine Learning
 export const ABOUT_TEXT = `Hello, I'm Asif Iqbal Khan, a passionate 4rd year B.Tech student specializing in Artificial Intelligence and Machine Learning at the University School of Automation and Robotics in Delhi. Alongside my academic pursuits, I thrive as a Full Stack Developer, blending creativity with technical expertise. Proficient in languages such as JavaScript, and Python, I embark on coding adventures to solve real-world problems. My journey extends beyond the classroom, fueled by an insatiable curiosity for machine learning. Leveraging this enthusiasm, I immerse myself in the dynamic realm of technology, constantly pushing boundaries and embracing challenges. Additionally, I am exploring the fields of Deep Learning and OpenCV, expanding my knowledge and skills in these cutting-edge areas`;
 
 
-
+export const educationData = [
+  {
+    degree: "Bachelor of Technology in Artificial Intelligence and Machine Learning",
+    year: "2022 - 2025",
+    institute: "USAR, GGSIPU",
+    cgpa: "8.84/10",
+  },
+  {
+    degree: "Diploma in Electronics and Communication Engineering",
+    year: "2017 - 2020",
+    institute: "Jamia Millia Islamia",
+    cgpa: "8.78/10",
+  },
+  {
+    degree: "Higher Secondary Education",
+    year: "2016 - 2017",
+    institute: "Jamia Millia Islamia",
+    cgpa: "8.43/10",
+  },
+];
 
 export const experiences = [
   {
