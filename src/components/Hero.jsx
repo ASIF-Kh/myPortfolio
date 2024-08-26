@@ -54,6 +54,7 @@ function Hero() {
                 
                     <div className='flex justify-center'>
                         <motion.img
+                        className='border-white border-2 selection: rounded-full w-64 h-64 lg:w-96 lg:h-96'
                         initial={{ x:100, opacity: 0 }}
                         animate={{ x:0, opacity: 1, transition: { duration: 0.5,delay:1.2 } }} 
                         src={profilePic} alt="pic" />
