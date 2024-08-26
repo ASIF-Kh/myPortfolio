@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="fixed w-full z-50 top-0 shadow-lg mb-5 backdrop-blur-xl">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
-          <a href="#home"><img className='w-10' src={logo} alt="" /></a>
+          <a href="#"><img className='w-10' src={logo} alt="" /></a>
         </div>
         <div className="hidden md:flex space-x-8">
           <a href="#" className="text-gray-400 hover:text-white transition-colors">
