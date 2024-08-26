@@ -10,7 +10,7 @@ const ExperienceSection = () => {
         whileInView={{y: 0, opacity: 1}}
         initial={{y: -100, opacity: 0}}
         transition={{duration: 1}}
-        className="text-3xl font-bold text-center text-white mb-12">Experience</motion.h2>
+        className="text-3xl font-bold text-center text-white mb-12 mt-10">Experience</motion.h2>
        
           {experiences.map((experience, index) => (
             <motion.div 

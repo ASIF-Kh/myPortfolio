@@ -18,13 +18,12 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section  className="py-10 text-center">
+    <section id='skill'  className="pt-10 text-center">
       <motion.h2 
-      id='skills'
       whileInView={{y: 0, opacity: 1}}
       initial={{y: -100, opacity: 0}}
       transition={{duration: 1}}
-      className="text-3xl font-bold mb-6">Skills</motion.h2>
+      className="text-3xl font-bold mb-6 mt-10">Skills</motion.h2>
       <div className="flex flex-wrap justify-center gap-6">
         {skillsData.map((skill, index) => (
           <motion.div

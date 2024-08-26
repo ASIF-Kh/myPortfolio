@@ -3,12 +3,12 @@ import {ABOUT_TEXT} from '../constants/index'
 import { motion } from 'framer-motion'
 function About() {
   return (
-    <div id='about' className='border-b border-neutral-900 pb-4'>
+    <div id='about' className='pt-5 border-b border-neutral-900'>
         <motion.h2 
         whileInView={{y: 0, opacity: 1}}
         initial={{y: -100, opacity: 0}}
         transition={{duration: 1}}
-        className='mt-20 mb-5 mt text-center text-4xl'>
+        className='mt-14 mb-5 text-center text-4xl'>
             About Me
         </motion.h2>
 

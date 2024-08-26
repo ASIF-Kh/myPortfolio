@@ -20,8 +20,8 @@ function App() {
       
       
       
-      <div className="container mx-auto px-8">
       <NavBar/>
+      <div className="container mt-10 mx-auto px-8">
       <Hero />
       <About/>
       <Skills />
