@@ -33,8 +33,8 @@ const Skills = () => {
             key={index}
             className="p-6 rounded-lg shadow-md flex flex-col items-center w-40 border-2"
           >
-            <div className="text-4xl text-blue-500 mb-4">{skill.icon}</div>
-            <h3 className="text-xl font-semibold">{skill.name}</h3>
+            <div className="text-2xl lg:text-4xl text-blue-500 mb-4">{skill.icon}</div>
+            <h3 className="text-lg lg:text-xl font-semibold">{skill.name}</h3>
             <p className="text-gray-500">{skill.level}</p>
           </motion.div>
         ))}
