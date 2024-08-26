@@ -18,8 +18,9 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <section className="py-10 text-center">
+    <section  className="py-10 text-center">
       <motion.h2 
+      id='skills'
       whileInView={{y: 0, opacity: 1}}
       initial={{y: -100, opacity: 0}}
       transition={{duration: 1}}

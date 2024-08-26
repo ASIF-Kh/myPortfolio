@@ -3,7 +3,7 @@ import {ABOUT_TEXT} from '../constants/index'
 import { motion } from 'framer-motion'
 function About() {
   return (
-    <div className='border-b border-neutral-900 pb-4'>
+    <div id='about' className='border-b border-neutral-900 pb-4'>
         <motion.h2 
         whileInView={{y: 0, opacity: 1}}
         initial={{y: -100, opacity: 0}}
