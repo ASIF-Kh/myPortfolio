@@ -3,8 +3,6 @@ import { educationData } from '../constants/index';
 import { motion } from 'framer-motion';
 
 const EducationSection = () => {
-  
-
   return (
     <section id="education" className="py-16 text-white">
       <div className="container mx-auto px-4">
@@ -28,8 +26,6 @@ const EducationSection = () => {
               </div>
               <p className=' text-blue-400'>{education.institute}</p>
               <p className="mt-2 text-gray-400">CGPA: {education.cgpa}</p>
-            
-
             </motion.div>
           ))}
         </div>
