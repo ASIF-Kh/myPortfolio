@@ -13,7 +13,7 @@ export const educationData = [
     cgpa: "8.84/10",
   },
   {
-    degree: "Diploma in Electronics and Communication Engineering",
+    degree: "Diploma in Electronics Engineering",
     year: "2017 - 2020",
     institute: "Jamia Millia Islamia",
     cgpa: "8.78/10",

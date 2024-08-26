@@ -23,7 +23,7 @@ const EducationSection = () => {
               className="border-2 border-white p-6 rounded-lg shadow-lg"
             >
               <div className="flex justify-between items-center mb-2">
-                <h3 className="text-2xl font-semibold">{education.degree}</h3>
+                <h3 className="text-l lg:text-2xl font-semibold">{education.degree}</h3>
                 <span className="text-gray-400">{education.year}</span>
               </div>
               <p className=' text-blue-400'>{education.institute}</p>
