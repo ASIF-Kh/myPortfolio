@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJsSquare, FaReact, FaNodeJs, FaCss3Alt } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiTailwindcss, SiPython, SiExpress, SiTensorflow, SiPytorch, SiDjango } from 'react-icons/si';
+import { SiMongodb, SiMysql, SiTailwindcss, SiPython, SiExpress, SiTensorflow, SiPytorch, SiDjango,SiDocker } from 'react-icons/si';
 import { motion } from 'framer-motion';
 const skillsData = [
   { name: 'JavaScript', icon: <FaJsSquare />, level: 'Advance' },
@@ -14,6 +14,7 @@ const skillsData = [
   { name: 'TensorFlow', icon: <SiTensorflow />, level: 'Intermediate' },
   { name: 'PyTorch', icon: <SiPytorch />, level: 'Intermediate' },
   { name: 'Django', icon: <SiDjango />, level: 'Intermediate' },
+  { name: 'Docker', icon: <SiDocker />, level: 'Beginner' },
 ];
 
 const Skills = () => {
