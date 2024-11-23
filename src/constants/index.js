@@ -55,23 +55,27 @@ export const projects = [
     description: 'A RAG based AI agent that answers questions related to the Indian Constitution. This project utilizes Google Gemini API and LLAMAINDEX along with PineCone for question answering.',
     technologies: ['Python','Gemini API','PineCone','LLAMAINDEX','Streamlit'],
     link: 'https://github.com/ASIF-Kh/chatbotFlask',
+    live:"https://bharat.streamlit.app/"
   },
   {
     title: 'Sustainable Development Goals Chatbot',
     description: 'A chatbot that provides information on the 17 Sustainable Development Goals (SDGs) to raise awareness and promote action on global issues.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Gemini API'],
     link: 'https://github.com/ASIF-Kh/chatbotFlask',
+    live:"https://treebo.arcedtech.com/"
   },
   {
     title: 'Blog Website',
     description: 'A full-stack blog website where users can create, read, update, and delete (CRUD) blog posts. Built using React.JS, AppWrite.',
     technologies: ['React.js', 'AppWrite', 'Tailwind CSS'],
     link: 'https://github.com/ASIF-Kh/BlogAppwrite',
+    live:"https://blogs.asifkh.tech/"
   },
   {
     title: 'Flight Price Prediction web app',
     description: 'A web application that predicts flight prices using machine learning models. Users can input flight details and receive price predictions.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Scikit-learn'],
     link: 'https://github.com/ASIF-Kh/Flight_price_prediction',
+    live:""
   },
 ];
