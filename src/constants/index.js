@@ -51,6 +51,12 @@ export const experiences = [
 
 export const projects = [
   {
+    title: 'Knowledge AI Agent on Indian Constitution',
+    description: 'A RAG based AI agent that answers questions related to the Indian Constitution. This project utilizes Google Gemini API and LLAMAINDEX along with PineCone for question answering.',
+    technologies: ['Python','Gemini API','PineCone','LLAMAINDEX','Streamlit'],
+    link: 'https://github.com/ASIF-Kh/chatbotFlask',
+  },
+  {
     title: 'Sustainable Development Goals Chatbot',
     description: 'A chatbot that provides information on the 17 Sustainable Development Goals (SDGs) to raise awareness and promote action on global issues.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Gemini API'],
