@@ -45,11 +45,11 @@ const ProjectSection = () => {
               </div>
               <a
                 href={project.link}
-                className="inline-block text-blue-500 hover:underline mt-2"
+                className="inline-block text-blue-500 hover:underline mt-2 mr-4" // Add margin-right to create space
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Project
+                Repo
               </a>
               <a
                 href={project.live}
