@@ -61,7 +61,7 @@ Special thanks to the open-source community and all contributors for their suppo
 
 ---
 
-For more information, visit the live application: [my-portfolio-khaki-psi-53.vercel.app](https://www.asifkh.tech/)
+For more information, visit the live application: [https://www.asifkh.tech](https://www.asifkh.tech)
 
 
 ---
